@@ -1,0 +1,7 @@
+# Salus Home Assistant Integration - Development Dependencies
+
+# Core library for Salus IT600 gateway communication
+pyit600>=0.5.0
+
+# For running async tests
+asyncio-compat>=0.1.0

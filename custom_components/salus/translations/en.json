@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to Salus Gateway",
+        "description": "Enter the connection details for your Salus UGE600 gateway.",
+        "data": {
+          "host": "Gateway IP Address",
+          "euid": "EUID (leave default if unsure)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the gateway. Check IP address and ensure Local WiFi Mode is enabled.",
+      "invalid_euid": "Invalid EUID format. Must be 16 hexadecimal characters.",
+      "unknown": "An unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "This gateway is already configured."
+    }
+  }
+}

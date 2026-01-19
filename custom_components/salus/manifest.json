@@ -1,0 +1,11 @@
+{
+  "domain": "salus",
+  "name": "Salus Smart Home",
+  "codeowners": ["@djhojd"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/djhojd/home-assistant-salus",
+  "iot_class": "local_polling",
+  "requirements": ["pyit600==0.5.1", "async_timeout>=4.0,<5.0"],
+  "version": "1.0.0"
+}

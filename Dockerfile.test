@@ -1,0 +1,13 @@
+# Simple Dockerfile for testing Salus gateway connectivity
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install pyit600 with compatible async_timeout version
+RUN pip install --no-cache-dir pyit600 "async_timeout>=4.0,<5.0"
+
+# Copy test script
+COPY test_connection.py .
+
+# Run the test
+CMD ["python", "test_connection.py"]
